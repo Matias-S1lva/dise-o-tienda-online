@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@font-face {
+  font-family: "Inconsolata";
+  src: url(../fonts/inconsolata.ttf);
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+img {
+  display: block;
+  width: 100%;
+}
+.main {
+  padding: 20px;
+}
+.main-header {
+  padding: 0 20px;
+}
+.main--header__title {
+  text-align: center;
+  font-size: 2.5em;
+  margin: 10px 0;
+  color: #454546;
+}
+
+/*-------estilos del menu---------*/
+
+
+.main-nav{
+  width: 100%;
+}
+.main-header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.icon-menu {
+  font-size: 1.5em;
+  border: 1px solid #454546;
+  display: block;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: auto;
+}
+.main-header__btn {
+  display: block;
+  padding: 10px 30px;
+  color: #454546;
+  border: 1px solid #454546;
+  text-decoration: none;
+}
+.main-header__input {
+  display: block;
+  padding: 10px;
+  width: 50%;
+}
+.main-header__txt{
+  margin-right: 10px;
+}
+.main-footer {
+  background: #151515;
+  color: white;
+  padding: 30px 20px;
+}
+.footer__title {
+  border-bottom: 1px dotted #555;
+  padding-bottom: 20px;
+}
+.footer__txt {
+  color: #555;
+  
+}
+.footer__link {
+  color: #555;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+}
+.footer__input {
+  background: #151515;
+  width: 100%;
+  display: block;
+  padding: 20px;
+
+  color: aliceblue;
+  border: 1px solid #555;
+}
+.copy {
+  color: #555;
+}
+
+@media screen and (min-width: 768px) {
+  .slider {
+    height: 400px;
+  }
+  
+  .editor__item {
+    height: 350px;
+  }
+  .main-header__container{
+   flex-wrap: wrap;
+  }
+}

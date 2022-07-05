@@ -1,0 +1,43 @@
+.product {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.product:hover {
+  opacity: .7;
+}
+.product::before {
+  content: "New";
+  background: #ff4e00;
+  padding: 10px;
+  width: 60px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  transform: rotate(-90deg);
+  color: white;
+}
+.container-products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  
+}
+.product__title {
+  text-align: center;
+}
+.product__price {
+  color: #ff4e00;
+  font-weight: bold;
+}
+.product__icon {
+  display: block;
+  margin: 10px 0;
+}
+.product__img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}

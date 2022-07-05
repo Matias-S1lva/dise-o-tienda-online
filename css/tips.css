@@ -1,0 +1,12 @@
+.container-tips{
+    margin: 20px 0;
+    text-align: center;
+}
+.tip .btn-shop{
+    color: #333;
+}
+.tip i{
+    font-size: 2.5em;
+    color: #333;
+    padding: 20px 0;
+}
